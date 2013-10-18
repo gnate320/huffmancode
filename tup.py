@@ -37,6 +37,7 @@ def play():
   print "t4:", t4
 
   t5 = (t4[0], 'e', 'f', 'g')
+  print "t5:", t5
 
   if t1<t4:
     print t1, "<", t4
@@ -47,7 +48,7 @@ def play():
     print 'whao!!'
   else:
     if t5<t4:
-      print "no error??"
+      print "no error??", t5, "<", t4
 
   if 3<('a','b'):
     print " 3 < (a,b)"
