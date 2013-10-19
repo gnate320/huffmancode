@@ -59,10 +59,10 @@ def play():
   print t4, "len", len(t4), "type", type(t4)
   t6 = (3)
   print t6, type(t6)  
-  if type(t6)=='tuple':
-     print "len t6", len(t6)
+  if type(t5)=='<type \'tuple\'>':
+     print "len t5", len(t5)
   else:
-     print "t6 not a tuple"
+     print "t5 not a tuple"
 
 if __name__ == "__main__":
   ll = read(sys.argv[1])
