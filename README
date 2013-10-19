@@ -1,0 +1,7 @@
+Nate Gillard
+PA2
+CS 320
+
+This is programing assingment 2 huffman code.
+
+imports exPQ.py (included in tar) and used priority queue to build a huffman coding tree.  My exPQ.py has been modified since the deadline of PA1.
